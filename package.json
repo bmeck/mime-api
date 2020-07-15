@@ -1,0 +1,23 @@
+{
+  "name": "@bradleymeck/mime-api",
+  "version": "1.0.0",
+  "main": "mime.js",
+  "exports": "mime.js",
+  "scripts": {
+    "lint": "eslint mime.js test/",
+    "test": "npm run lint && node test/api.js && node test/wpt.js"
+  },
+  "files": [
+    "mime.js"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "@ljharb/eslint-config": "^16.0.0",
+    "@types/node": "^14.0.23",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0"
+  }
+}
